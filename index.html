@@ -70,12 +70,48 @@
             background-clip: text;
         }
 
-        .summary {
+        .profile-section {
             text-align: left;
             color: #b0b0b0;
             margin-bottom: 40px;
             line-height: 1.6;
             font-size: 1.1em;
+        }
+
+        .profile-section h2 {
+            font-size: 1.1em;
+            color: #667eea;
+            margin-bottom: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .summary {
+            margin: 0;
+        }
+
+        .education {
+            text-align: left;
+            color: #b0b0b0;
+            margin-bottom: 40px;
+            line-height: 1.;
+        }
+
+        .education h2 {
+            font-size: 1.1em;
+            color: #667eea;
+            margin-bottom: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .education ul {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+
+        .education li {
+            margin-bottom: 8px;
         }
 
         .social-links {
@@ -187,18 +223,32 @@
         <!-- Subtitle -->
         <p style="font-size: 1.4em; color: #667eea; margin-bottom: 20px;">Geospatial professional</p>
 
-        <!-- Summary -->
-        <p class="summary">
-            Surveying Engineer and Data Scientist with passion for geospatial technologies and product development.
-            <br />
-            <br />
-            With over 20+ years of experience in GIS, I have a proven track record of applying analytical skills to deliver impactful solutions.
-            My background includes automating geospatial processes, designing spatial databases, creating web mapping applications, and managing geographic data across various industries, using propietary and open-source technologies.
-            <br />
-            <br />
-            As a leader and Product Owner, I was outcome-oriented and customer-focused. I have successfully led teams, modernized data delivery workflows, and built solutions that drive significant user adoption.
-            My experience spans public and private organizations, where I've effectively implemented Scrum, automated data processes, and fostered collaboration within distributed multicultural teams.
-        </p>
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <h2>Profile</h2>
+            <p class="summary">
+                Surveying Engineer and Data Scientist with passion for geospatial technologies and product development.
+                <br />
+                <br />
+                With over 20+ years of experience in GIS, I have a proven track record of applying analytical skills to deliver impactful solutions.
+                My background includes automating geospatial processes, designing spatial databases, creating web mapping applications, and managing geographic data across various industries, using propietary and open-source technologies.
+                <br />
+                <br />
+                As a leader and Product Owner, I was outcome-oriented and customer-focused. I have successfully led teams, modernized data delivery workflows, and built solutions that drive significant user adoption.
+                My experience spans public and private organizations, where I've effectively implemented Scrum, automated data processes, and fostered collaboration within distributed multicultural teams.
+            </p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Data Science Specialization - ITBA - Argentina</li>
+                <li>Surveying Engineering - UBA - Argentina</li>
+                <li>Mathematical Geographer Technician - IGN - Argentina</li>
+            </ul>
+        </div>
+
         <!-- Social Links & Certifications Section -->
         <div class="social-links">
             <!-- LinkedIn -->
